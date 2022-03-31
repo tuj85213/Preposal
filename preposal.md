@@ -10,4 +10,4 @@ Courtney Carroll Section 001, Karina Marchuk Section 007, Varasiddhi Vinay Secti
 
 ## Do you have any questions of your own?
 
-can we use templates to build off of
+not as of right now!
