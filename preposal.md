@@ -10,4 +10,4 @@ Courtney Carroll Section 001, Karina Marchuk Section 007, Varasiddhi Vinay Secti
 
 ## Do you have any questions of your own?
 
-not as of right now!
+Do we have to incorporate physics to change the PONG PATTLES to CIRCLE HANDLES? 
