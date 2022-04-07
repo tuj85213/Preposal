@@ -1,3 +1,5 @@
+#https://www.101computing.net/pong-tutorial-using-pygame-adding-the-paddles/
+
 import pygame
 pygame.init()
 
