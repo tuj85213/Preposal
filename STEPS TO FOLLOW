@@ -1,6 +1,6 @@
 OUR NEXT STEPS WITH OUR FINAL 
 1. background - siddhi
-  - simulate normal pong game first 
+  - simulate normal pong game first
 2. create sprites - 
 3. custom paddles - 
 4. scoreboard - 
@@ -11,3 +11,6 @@ OUR NEXT STEPS WITH OUR FINAL
   - 5 points to win per round 
 7. pause and play button 
 8. *** instruction page *** 
+
+***i finished the basic code for pong game, just went through the tutorial, now we have to edit it limit its score, add rounds, 
+   and change the sprite images
