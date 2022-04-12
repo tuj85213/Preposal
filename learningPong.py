@@ -1,61 +1,69 @@
 #https://www.101computing.net/pong-tutorial-using-pygame-adding-the-paddles/
 
+# Import the pygame library and initialise the game engine
 import pygame
-pygame.init()
 from paddle import Paddle
 
-#background
+pygame.init()
 
-blue = (100, 120, 200)
-white = (255, 255, 255)
+# Define some colors
+BLACK = (0,0,0)
+WHITE = (255,255,255)
 
-size = (500, 700)
+# Open a new window
+size = (700, 500)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Pong")
 
-#paddle
-
-paddleA =Paddle(white, 10, 100)
-
-##it says I have an error?? --> "pygame.sprite.Sprite.add() argument after * must be an iterable, not int File "/Users/siddhivinay/Documents/learningPong.py", line 18, in <module> paddleA =Paddle(white, 10, 100)""
-
+paddleA = Paddle(WHITE, 10, 100)
 paddleA.rect.x = 20
 paddleA.rect.y = 200
 
-paddleB = Paddle(white, 10, 100)
+paddleB = Paddle(WHITE, 10, 100)
 paddleB.rect.x = 670
 paddleB.rect.y = 200
 
+#This will be a list that will contain all the sprites we intend to use in our game.
 all_sprites_list = pygame.sprite.Group()
 
+# Add the paddles to the list of sprites
 all_sprites_list.add(paddleA)
 all_sprites_list.add(paddleB)
- 
 
+# The loop will carry on until the user exits the game (e.g. clicks the close button).
 carryOn = True
-
+ 
+# The clock will be used to control how fast the screen updates
 clock = pygame.time.Clock()
-
-#-------Main Program ---------
+ 
+# -------- Main Program Loop -----------
 while carryOn:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            carryOn = False
-
-        elif event.type == pygame.QUIT:
-            if event.key == pygame.K_x: #Pressing the x Key will quit the game
-                carryOn = False                
-
+    # --- Main event loop
+    for event in pygame.event.get(): # User did something
+        if event.type == pygame.QUIT: # If user clicked close
+              carryOn = False # Flag that we are done so we exit this loop
+        elif event.type==pygame.KEYDOWN:
+                if event.key==pygame.K_x: #Pressing the x Key will quit the game
+                     carryOn=False  
+ 
+    # --- Game logic should go here
     all_sprites_list.update()
+ 
+ 
+    # --- Drawing code should go here
+    # First, clear the screen to black. 
+    screen.fill(BLACK)
+    #Draw the net
+    pygame.draw.line(screen, WHITE, [349, 0], [349, 500], 5)
     
-    screen.fill(white)
-    pygame.draw.line(screen, blue, [0,350], [500, 350], 5)
-    
-    all_sprites_list.draw(screen)
-
+    #Now let's draw all the sprites in one go. (For now we only have 2 sprites!)
+    all_sprites_list.draw(screen) 
+ 
+    # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
-
-
+     
+    # --- Limit to 60 frames per second
     clock.tick(60)
-
+ 
+#Once we have exited the main program loop we can stop the game engine:
 pygame.quit()
