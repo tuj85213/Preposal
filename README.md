@@ -6,3 +6,4 @@
 3. Varasiddhi Vinay Section 007 TA Joanne tuo48948@temple.edu
 
 ###Sources: https://www.101computing.net/pong-tutorial-using-pygame-getting-started/
+### we followed this tutorial for our basic pong format
