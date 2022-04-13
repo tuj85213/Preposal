@@ -1,5 +1,9 @@
 #https://www.101computing.net/pong-tutorial-using-pygame-adding-the-paddles/
 
+# Import the pygame library and initialise the game engine
+import pygame
+from paddle import Paddle
+from ball import Ball
  # Import the pygame library and initialise the game engine
 import pygame
 from paddle import Paddle
@@ -8,23 +12,23 @@ from ball import Ball
 pygame.init()
  
 # Define some colors
-BLACK = (0,0,0)
-WHITE = (255,255,255)
+BLUE = (0,0,128)
+WHITE = (250,250,250)
  
 # Open a new window
 size = (700, 500)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Pong")
  
-paddleA = Paddle(WHITE, 10, 100)
+paddleA = Paddle(BLUE, 10, 100)
 paddleA.rect.x = 20
 paddleA.rect.y = 200
  
-paddleB = Paddle(WHITE, 10, 100)
+paddleB = Paddle(BLUE, 10, 100)
 paddleB.rect.x = 670
 paddleB.rect.y = 200
  
-ball = Ball(WHITE,10,10)
+ball = Ball(BLUE,10,10)
 ball.rect.x = 345
 ball.rect.y = 195
  
@@ -88,18 +92,18 @@ while carryOn:
     
     # --- Drawing code should go here
     # First, clear the screen to black. 
-    screen.fill(BLACK)
+    screen.fill(WHITE)
     #Draw the net
-    pygame.draw.line(screen, WHITE, [349, 0], [349, 500], 5)
+    pygame.draw.line(screen, BLUE, [349, 0], [349, 500], 5)
     
     #Now let's draw all the sprites in one go. (For now we only have 2 sprites!)
     all_sprites_list.draw(screen) 
  
     #Display scores:
     font = pygame.font.Font(None, 74)
-    text = font.render(str(scoreA), 1, WHITE)
+    text = font.render(str(scoreA), 1, BLUE)
     screen.blit(text, (250,10))
-    text = font.render(str(scoreB), 1, WHITE)
+    text = font.render(str(scoreB), 1, BLUE)
     screen.blit(text, (420,10))
  
     # --- Go ahead and update the screen with what we've drawn.
@@ -110,4 +114,3 @@ while carryOn:
  
 #Once we have exited the main program loop we can stop the game engine:
 pygame.quit()
-
