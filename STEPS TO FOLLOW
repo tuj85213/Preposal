@@ -1,16 +1,14 @@
 OUR NEXT STEPS WITH OUR FINAL 
-1. background - siddhi
-  - simulate normal pong game first
-2. create sprites - 
-3. custom paddles - 
-4. scoreboard - 
-5. **goal sounds / background sounds / hit sounds ** - 
-6. game rules (scoring rules)
+1. basic pong game - siddhi, done
+2. create sprites airhockey paddles - karina 
+4. scoreboard, game rules (scoring rules) - 
   - 3 rounds to win
   - 5 rounds
   - 5 points to win per round 
-7. pause and play button 
-8. *** instruction page *** 
+Reach: 
+**goal sounds / background sounds / hit sounds ** - 
+**pause and play button 
+**instruction page *** 
 
 ***i finished the basic code for pong game, just went through the tutorial, now we have to edit it limit its score, add rounds, 
    and change the sprite images
