@@ -1,9 +1,5 @@
 #https://www.101computing.net/pong-tutorial-using-pygame-adding-the-paddles/
 
-# Import the pygame library and initialise the game engine
-import pygame
-from paddle import Paddle
-from ball import Ball
  # Import the pygame library and initialise the game engine
 import pygame
 from paddle import Paddle
