@@ -1,19 +1,17 @@
-OUR NEXT STEPS WITH OUR FINAL 
+OVERALL STEPS:
 1. basic pong game - siddhi, done
 2. create sprites airhockey paddles - karina 
 4. scoreboard, game rules (scoring rules) - 
   - 3 rounds to win
   - 5 rounds
   - 5 points to win per round 
-Reach: 
-**goal sounds / background sounds / hit sounds ** - 
-**pause and play button 
-**instruction page *** 
-
-***i finished the basic code for pong game, just went through the tutorial, now we have to edit it limit its score, add rounds, 
-   and change the sprite images
 
 WHAT WE NEED:
 1. Air Hockey Pucks
 2. Point stops when it goes out of bound, not keep bouncing
 3. proper score board with games
+
+REACH: 
+**goal sounds / background sounds / hit sounds ** - 
+**pause and play button 
+**instruction page *** 
