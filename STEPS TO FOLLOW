@@ -12,3 +12,8 @@ Reach:
 
 ***i finished the basic code for pong game, just went through the tutorial, now we have to edit it limit its score, add rounds, 
    and change the sprite images
+
+WHAT WE NEED:
+1. Air Hockey Pucks
+2. Point stops when it goes out of bound, not keep bouncing
+3. proper score board with games
