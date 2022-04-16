@@ -34,10 +34,28 @@ class Paddle(pygame.sprite.Sprite):
         if self.rect.y > 400:
           self.rect.y = 400
           
-    def moveDown(self, pixels):
-        self.rect.y += pixels
-	#Check that you are not going too far (off the screen)
-        if self.rect.y > 400:
-           self.rect.y = 400
-
+    def moveLeftA(self, pixels):
+        self.rect.x -= pixels
+		
+        if self.rect.x < 0:
+          self.rect.x = 0
+          
+    def moveRightA(self, pixels):
+        self.rect.x += pixels
+	
+        if self.rect.x > 340:
+          self.rect.x = 340
+          
+    def moveLeftB(self, pixels):
+        self.rect.x -= pixels
+		
+        if self.rect.x < 350:
+          self.rect.x = 350
+          
+    def moveRightB(self, pixels):
+        self.rect.x += pixels
+	
+        if self.rect.x > 690:
+          self.rect.x = 690
+    
 
