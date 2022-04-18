@@ -7,9 +7,9 @@
 3. Varasiddhi Vinay Section 007 TA Joanne tuo48948@temple.edu
 
 ###Sources: 
-    - pong tutorial: https://www.101computing.net/pong-tutorial-using-pygame-adding-a-scoring-system/
+- pong tutorial: https://www.101computing.net/pong-tutorial-using-pygame-adding-a-scoring-system/
       # we followed this tutorial for our basic pong format   
-    - source code: https://code-projects.org/air-hockey-game-in-python-with-source-code/
+- source code: https://code-projects.org/air-hockey-game-in-python-with-source-code/
       # waiting approval from Professor Rosen
-    - sprite video: https://www.youtube.com/watch?v=gnlWy-qi6Rs
-    - score display video: https://www.youtube.com/watch?v=Fp1dudhdX8k
+- sprite video: https://www.youtube.com/watch?v=gnlWy-qi6Rs
+- score display video: https://www.youtube.com/watch?v=Fp1dudhdX8k
