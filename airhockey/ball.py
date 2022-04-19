@@ -1,7 +1,7 @@
 import pygame
 import random
 import math
-#we referenced the airhockey source's puck.py
+# modeled off of airhockey source's puck.py
  
 class Ball():    
     def __init__(self, x, y):
@@ -12,6 +12,7 @@ class Ball():
         self.mass = 500
         self.angle = 0
         
+    #imitates the airlike movement of a puck, we liked this better than the pong ball movement
     def move(self, time_delta):
         self.x += math.sin(self.angle) * self.speed * time_delta
         self.y -= math.cos(self.angle) * self.speed * time_delta
