@@ -1,6 +1,6 @@
 import pygame 
 import math
-#we referenced the air hockey source's file paddle.py
+#we modeled off of air hockey source's file paddle.py
 
 class Paddle():    
     def __init__(self, pad_x, pad_y):
