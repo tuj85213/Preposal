@@ -10,7 +10,9 @@
 ###Sources: 
 - pong tutorial: https://www.101computing.net/pong-tutorial-using-pygame-adding-a-scoring-system/ 
 - airhockey code framework: https://code-projects.org/air-hockey-game-in-python-with-source-code/
-- sprite video: https://www.youtube.com/watch?v=gnlWy-qi6Rs
-- score display video: https://www.youtube.com/watch?v=Fp1dudhdX8k
 - background music: UPBEAT-PIANO-POP-VOCAL-WHISTLE_AdobeStock_497992063_preview
 https://stock.adobe.com/search/audio?album=&asset_type=AUDIO&attribution=&current_page=1&duration_max=1200000&duration_min=0&keywords=&load_type=audio+lp&moods=Suspenseful&order=relevance&page_limit=50&tempo_max=300&tempo_min=1
+
+###Learning Tools:
+- sprite video: https://www.youtube.com/watch?v=gnlWy-qi6Rs
+- score display video: https://www.youtube.com/watch?v=Fp1dudhdX8k
