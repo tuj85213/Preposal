@@ -1,6 +1,6 @@
+## Final project in air hockey file
 ## You can find out PREposal under the file titled preposal.md
 ## You can find out PROposal under the file titled proposal.md
-## Final project in air hockey file
 
 # Group Members: 
 1. Courtney Carroll Section 001 TA Joanne tuj85213@temple.edu 
