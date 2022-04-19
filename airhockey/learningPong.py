@@ -1,4 +1,4 @@
-# This was built off the pong tutorial but implimented the airhockey source
+# This was built off the pong tutorial and later the airhockey source's main.py
 # hit and goal sounds are from airhockey source
 # background music is from adobe royalty free stock music
 
