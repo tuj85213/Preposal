@@ -27,7 +27,7 @@ Paddle Class
 In learningPong.py:
 Main file contains the game
 - setup game stuff (puck, paddles, sounds, table and window size)
-- load the images and sounds
+- load the images and sounds (fun fact, the puck pattern is randomized everytime!)
 - reset_game: resets the game when goal is scored
 - inside_goal: checks if someone scores a goal
 - gameloop: Here runs the game
