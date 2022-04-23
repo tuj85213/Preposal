@@ -17,3 +17,4 @@ https://stock.adobe.com/search/audio?album=&asset_type=AUDIO&attribution=&curren
 ###Learning Tools:
 - sprite video: https://www.youtube.com/watch?v=gnlWy-qi6Rs
 - score display video: https://www.youtube.com/watch?v=Fp1dudhdX8k
+- installing Pygame: https://www.youtube.com/watch?v=jO6qQDNa2UY
